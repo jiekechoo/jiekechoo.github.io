@@ -13,7 +13,9 @@ jobs:
           python-version: "3.x"
       - name: Install dependencies
         run: pip install mkdocs mkdocs-material mkdocs-swagger-ui mkdocs-swagger-ui-tag mkdocs-video \
-          mkdocs-redirects mkdocs-minify-plugin mkdocs-git-revision-date-localized-plugin mkdocs-git-revision-date-localized-plugin mkdocs-awesome-pages-plugin 
+          mkdocs-redirects mkdocs-minify-plugin mkdocs-git-revision-date-localized-plugin \
+          mkdocs-git-revision-date-localized-plugin mkdocs-awesome-pages-plugin mkdocs-glightbox mkdocs-blogging-plugin mkdocs-extra-sass-plugin \
+          paginate 
       - name: Build docs
         run: mkdocs build
       - name: Deploy
