@@ -3,6 +3,8 @@ theme:
   name: material
 repo_url: https://github.com/jiekechoo
 nav:
-  - Home: index.md
-  - About: about.md
+  - Home: 
+    - index.md
+  - About: 
+    - about.md
  
