@@ -15,7 +15,7 @@ jobs:
         run: pip install mkdocs mkdocs-material mkdocs-swagger-ui mkdocs-swagger-ui-tag mkdocs-video \
           mkdocs-redirects mkdocs-minify-plugin mkdocs-git-revision-date-localized-plugin \
           mkdocs-git-revision-date-localized-plugin mkdocs-awesome-pages-plugin mkdocs-glightbox mkdocs-blogging-plugin mkdocs-extra-sass-plugin \
-          paginate 
+          paginate mkdocs-meta-descriptions-plugin mkdocs-material-extensions
       - name: Build docs
         run: mkdocs build
       - name: Deploy
