@@ -1,6 +1,20 @@
 site_name: Jieke Choo Home Page
 theme: 
   name: material
+  features:
+    - navigation.tabs
+    # - navigation.tabs.sticky
+    - header.autohide
+    - announce.dismiss
+    # - navigation.expand
+    - navigation.footer
+    - navigation.instant
+    - content.tabs.link
+    - content.code.copy
+  icon:
+    admonition:
+      dollar: fontawesome/solid/dollar-sign
+
 repo_url: https://github.com/jiekechoo
 nav:
   - Home: 
