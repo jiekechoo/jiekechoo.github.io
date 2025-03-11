@@ -1,0 +1,8 @@
+site_name: Jieke Choo Home Page
+theme: 
+  name: material
+repo_url: https://github.com/jiekechoo
+nav:
+  - Home: index.md
+  - About: about.md
+ 
